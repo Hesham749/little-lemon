@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 5% 0px;
+    padding: 0px;
+    background-color: rgba(192, 192, 192, 0.471);
+}
+header {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+nav {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+ul {
+    list-style: none;
+    background-color: black;
+    border-radius: 15px;
+    padding: 4px 0px;
+    display: flex;
+    justify-content: center;
+    margin: 20px 8px;
+    gap: 3%;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.4rem;
+    transition: 0.3s linear;
+}
+a:hover {
+    color: rgb(48, 131, 103);
+}
+main {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+section {
+    display: flex;
+}
+article {
+    background-color: bisque;
+    margin: 8px;
+    border-radius: 20px;
+    flex: 1;
+    padding: 2.5%;
+    transition: 0.3s linear;
+}
+article:hover {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
+    transform: scale(1.1);
+    margin: 25px 20px;
+}
+.promo {
+    color: rgb(252, 251, 251);
+    background-image: url(2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.promo h2 {
+    font-size: 2rem;
+}
+article img {
+    display: block;
+    width: 100%;
+    height: 150px;
+}
+
+footer {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+footer div {
+    margin: 8px;
+    border-radius: 10px;
+    flex: 1;
+    padding: 0px 2.5%;
+}
+.copy {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.copy p {
+    padding: 0px;
+    margin: 0;
+}
